@@ -1,0 +1,135 @@
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;    
+background-color: #121212;
+color: #ffffff;
+}
+
+.nav-logos{
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  filter: invert();
+  
+}
+
+#header-content{
+  display: flex;
+
+  flex-direction: row;
+
+ align-content: space-evenly;
+}
+
+.albums-wrapper{
+ display: grid;
+ grid-template-columns: repeat(8,1fr);
+ row-gap: 100px;
+ column-gap: 15px;
+ border-radius: 50px;
+}
+
+
+.album-art{
+  display: flex;
+  margin: 0;
+  height: 125px;
+  width: 125px;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.album-art, p{
+  margin:0;
+}
+
+body{
+  background-color: #121212;
+}
+
+.yeah{
+  display: flex;
+  border: solid #B3B3B310;
+  color: #ffffff;
+  background-color: #B3B3B310;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 450px;
+  margin: 10px;
+}
+ 
+.yeah2{
+  display: flex;
+  border: solid #B3B3B310;
+  color: #ffffff;
+  background-color: #B3B3B310;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 450px;
+  margin: 20px 10px;
+}
+
+main{
+  display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.white-b{
+  display: flex;
+ background-color: white;
+ border-radius: 50px;
+width: 20dvh;
+height: 30px;
+color: black;
+justify-content: center;
+align-items: center;
+}
+
+aside{
+  background-color: #7C7C7C10;
+  border-radius: 20px;
+  width: 500px;
+   color: #ffffff;
+}
+
+.grey-r{
+  display: flex;
+  color: #7C7C7C;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section{
+  background-color: #7C7C7C10;
+  height: 835px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.button{
+  width: 40px;
+  height: 40px;
+}
+
+.ihatej{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.green{
+  width: 140px;
+  height: 20px;
+  background-color: green;
+  color: #7C7C7C;
+  border-radius: 20px;
+}
+
+.chamfer{
+  display: flex;
+  border-radius: 20px;
+}
